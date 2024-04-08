@@ -5,7 +5,7 @@ body{
   font-family: sans-serif;
 }
 nav{
-  background-color: #6E4525;
+  box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.2);
   height: 70px;
   display: flex;
   justify-content: space-between;
@@ -18,14 +18,16 @@ nav ul li{
 }
 nav ul li a{
   text-decoration: none;
-  color: whitesmoke;
+  color: #444;
   padding: 15px;
 }
 nav ul li a:hover{
-  background-color: #91451D;
+  background-color: #444;
+  color: whitesmoke;
 }
 .navbar h1{
-  color: whitesmoke;
+  color: #444;
+  font-size: 25px;
 }
 .navbar .bookbtn{
   text-decoration: none;
@@ -46,7 +48,7 @@ nav ul li a:hover{
 .dropdown-content{
 position: absolute;
 width: 140px;
-background-color: #6E4525;
+background-color: #444;
 margin-top: 10px;
 display: none;
 }
@@ -58,7 +60,7 @@ display: none;
   color: whitesmoke;
 }
 .dropdown-content a:hover{
-  background-color: #91451D;
+  background-color: #777;
   padding: 15px;
 }
 .dropdown:hover .dropdown-content{
@@ -116,7 +118,7 @@ display: none;
 .book-btn a{
   text-decoration: none;
   padding: 10px 18px;
-  background-color: #6E4525;
+  background-color: #444;
   color: whitesmoke;
 }
 .book-btn{

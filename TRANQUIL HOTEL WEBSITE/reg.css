@@ -6,12 +6,12 @@ body{
   }
 
   nav{
-    background-color: #6E4525;
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.2);
     height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 4%;
+    padding: 0 4%
   }
   nav ul li{
     list-style: none;
@@ -19,14 +19,16 @@ body{
   }
   nav ul li a{
     text-decoration: none;
-    color: whitesmoke;
+    color: #444;
     padding: 15px;
   }
   nav ul li a:hover{
-    background-color: #91451D;
+    background-color: #444;
+    color: whitesmoke;
   }
   .navbar h1{
-    color: whitesmoke;
+    color: #444;
+    font-size: 25px;
   }
   .navbar .bookbtn{
     text-decoration: none;
@@ -47,7 +49,7 @@ body{
   .dropdown-content{
   position: absolute;
   width: 140px;
-  background-color: #6E4525;
+  background-color: #444;
   margin-top: 10px;
   display: none;
   }
@@ -59,7 +61,7 @@ body{
     color: whitesmoke;
   }
   .dropdown-content a:hover{
-    background-color: #91451D;
+    background-color: #777;
     padding: 15px;
   }
   .dropdown:hover .dropdown-content{
@@ -121,7 +123,7 @@ label{
   .register {
     text-decoration: none;
     padding: 10px 20px;
-    background-color: #6E4525;
+    background-color: rgb(116, 36, 36);
     color: whitesmoke;
   
   }

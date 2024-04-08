@@ -5,6 +5,7 @@ body{
   font-family: sans-serif;
 }
 nav{
+  box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.2);
   /* background-color: whitesmoke; */
   height: 70px;
   display: flex;
@@ -107,7 +108,23 @@ display: none;
 } */
 
 /* ABOUT US SECTION */
-
+.count{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 50px;
+}
+.available h1{
+  text-align: center;
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 30px;
+  margin-top: 30px;
+  color: white;
+}
+.available p{
+  margin: 0;
+}
 /* Slider */
 .body{
   width: 100%;
@@ -566,6 +583,22 @@ iframe{
 .fa-instagram,.fa-x-twitter,.fa-facebook,.fa-whatsapp{
   margin: 0 10px;
 }
+.fa-instagram{
+  font-size: 30px;
+  color: whitesmoke;
+}
+.fa-x-twitter{
+  font-size: 30px;
+  color: whitesmoke;
+}
+.fa-facebook{
+  font-size: 30px;
+  color: whitesmoke;
+}
+.fa-whatsapp{
+  font-size: 30px;
+  color: whitesmoke;
+}
 
 /* Footer Section */
 .footer{
@@ -637,4 +670,31 @@ iframe{
   .cont-socials{
     column-gap: 0;
   }
+  .fa-instagram{
+    font-size: 15px;
+    color: whitesmoke;
+    margin: 0;
+    margin-right: 10px;
+  }
+  .fa-x-twitter{
+    font-size: 15px;
+    color: whitesmoke;
+    margin: 0;
+    margin-right: 10px;
+  }
+  .fa-facebook{
+    font-size: 15px;
+    color: whitesmoke;
+    margin: 0;
+    margin-right: 10px;
+  }
+  .fa-whatsapp{
+    font-size: 15px;
+    color: whitesmoke;
+    margin: 0;
+    margin-right: 10px;
+  }
+  /* .socials{
+    margin: 0;
+  } */
 }
