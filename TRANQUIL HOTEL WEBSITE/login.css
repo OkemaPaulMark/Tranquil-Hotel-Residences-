@@ -201,6 +201,9 @@ iframe{
     width: 100%;
     margin: 0;
   }
+  nav ul li{
+    display: none;
+  }
   .socials{
     margin-left: 0;
     margin-right: 235px;
