@@ -62,8 +62,17 @@ document.addEventListener('DOMContentLoaded', function(){
 });
 
 
-  
 
 
-
-    //  Pop up Javascript4
+  //the mobile menu humberger
+function toggleHamburger() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+  const icon = document.getElementById('hamburgerIcon');
+  icon.classList.toggle('fa-bars'); // Toggle the 'fa-bars' class
+  icon.classList.toggle('fa-times'); // Toggle the 'fa-times' (close) class
+}

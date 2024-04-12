@@ -66,6 +66,11 @@ display: none;
 .dropdown:hover .dropdown-content{
   display: block;
 }
+.fa-bars{
+  color: whitesmoke;
+  font-size: 30px;
+  display: none;
+}
 
 /* Suites Section */
 .card{
@@ -85,9 +90,6 @@ display: none;
 }
 .text a:hover{
   opacity: 90%;
-}
-.text h4{
-  /* display: inline-block; */
 }
 .text p{
   margin: 5px 0;
@@ -177,7 +179,45 @@ textarea{
 .fa-instagram,.fa-x-twitter,.fa-facebook,.fa-whatsapp{
   margin: 0 10px;
 }
-
+.fa-instagram{
+  font-size: 30px;
+  color: whitesmoke;
+}
+.fa-x-twitter{
+  font-size: 30px;
+  color: whitesmoke;
+}
+.fa-facebook{
+  font-size: 30px;
+  color: whitesmoke;
+}
+.fa-whatsapp{
+  font-size: 30px;
+  color: whitesmoke;
+}
+.para{
+  color: whitesmoke;
+   display: inline-block;
+}
+.fa-location-dot{
+  color: whitesmoke;
+}
+.fa-phone{
+  color: whitesmoke;
+}
+.fa-envelope{
+  color: whitesmoke;
+}
+.socials h6{
+  color: whitesmoke;
+}
+.detailcont h6{
+  color: whitesmoke;
+}
+.socials-cont h5{
+  text-align: center; 
+  color: whitesmoke;
+}
 /* Footer Section */
 .footer{
   text-align: center;
@@ -202,6 +242,18 @@ iframe{
     width: 100%;
     margin: 0;
   }
+  .fa-bars{
+    color: #444;
+    font-size: 35px;
+    display: block;
+  }
+  .navbar h1{
+    color: #444;
+    font-size: 17px;
+  }
+  .navbar .bookbtn{
+    padding: 10px 12px;
+  }
   nav ul li{
     display: none;
   }
@@ -217,5 +269,36 @@ iframe{
   }
   .card{
     margin: 10px 0;
+  }
+  .socials{
+    margin-left: 30px;
+    margin-right: 235px;
+  }
+  .cont-socials{
+    column-gap: 0;
+  }
+  .fa-instagram{
+    font-size: 15px;
+    color: whitesmoke;
+    margin: 0;
+    margin-right: 10px;
+  }
+  .fa-x-twitter{
+    font-size: 15px;
+    color: whitesmoke;
+    margin: 0;
+    margin-right: 10px;
+  }
+  .fa-facebook{
+    font-size: 15px;
+    color: whitesmoke;
+    margin: 0;
+    margin-right: 10px;
+  }
+  .fa-whatsapp{
+    font-size: 15px;
+    color: whitesmoke;
+    margin: 0;
+    margin-right: 10px;
   }
 }
