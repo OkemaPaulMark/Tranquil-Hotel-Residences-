@@ -131,6 +131,12 @@ label{
     color: whitesmoke;
   
   }
+  form p{
+    color: whitesmoke;
+  }
+  p a{
+    color: rgb(55, 55, 236);
+  }
   .log{
     display: flex;
     justify-content: center;

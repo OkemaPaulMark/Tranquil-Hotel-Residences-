@@ -42,48 +42,6 @@ nav ul li a:hover{
   display: none;
   padding: 10px;
 }
-
-/* The mobile menu*/
-/*#myLinks{
-  display: none;
-}
-
-
-.topnav {
-  overflow: hidden;
-  background-color: rgb(39, 39, 39);
-  position: relative;
-  display: none;
-}
-
-.topnav #myLinks {
-  display: block;
-}
-
-.topnav a {
-  color: #ffffff;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-  align-items: center;
-}
-
-.topnav a.icon {
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.topnav a:hover {
-  background-color: #000000;
-  color: #ffffff;
- }
-
-.fa-caret-down{
-  margin-left: 5px;
-}*/
 .dropdown{
   position: relative;
 }
@@ -254,6 +212,8 @@ img {
   vertical-align: middle;
 }
   
+
+
 /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
@@ -261,17 +221,13 @@ img {
   width: 600px;
   height: auto;
   }
-/* Hide the images by default */
+
 .mySlides {
   display: none;
 }
-
-/* Add a pointer when hovering over the thumbnail images */
 .cursor {
   cursor: pointer;
 }
-
-/* Next & previous buttons */
 .prev,
 .next {
   cursor: pointer;
@@ -655,7 +611,6 @@ iframe{
     width: 100%;
   } 
   .all{
-    /* width: 100%; */
     padding-bottom: 60%;
   } 
   /* About Section */

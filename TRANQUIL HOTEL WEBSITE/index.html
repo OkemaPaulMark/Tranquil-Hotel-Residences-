@@ -11,18 +11,18 @@
 <body>
 <!-- NAVBAR SECTION -->
 <div class="hero">
-  <section>
+  <section  id="home">
     <div class="navbar">
       <nav>
         <h1>Tranquil Hotel</h1>
         <ul>
           <i class="fa-solid fa-bars"></i>
 
-          <li><a href="index.html">Home</a></li>
-          <li><a href="index.html">About</a></li>
-          <li><a href="index.html">Amendities</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#amenities">Amendities</a></li>
           <li class="dropdown">
-            <a class="dropbtn" href="suites.html">Rooms<i class="fa-solid fa-caret-down"></i></a>
+            <a class="dropbtn" href="#rooms">Rooms<i class="fa-solid fa-caret-down"></i></a>
             <div class="dropdown-content">
               <a href="Legend suite.html">Legend Suites</a>
               <a href="Icon Suite.html">Icon Suites</a>
@@ -32,41 +32,15 @@
               <a href="Discount suite.html">Discount Suite</a>
             </div>
           </li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#contact">Contact</a></li>
           <a class="bookbtn" href="suites.html">Book Now</a>
         </ul>
       </nav>
     </div>
-
-    <!--The mobile menu--> 
-    <!-- <div class="topnav">
-      <div id="myLinks">
-      
-        <li><a href="index.html">Home</a></li>
-        <li><a href="index.html">About</a></li>
-        <li><a href="index.html">Amendities</a></li>
-        <li class="dropdown">
-          <a class="dropbtn" href="suites.html">Rooms<i class="fa-solid fa-caret-down"></i></a>
-          <div class="dropdown-content">
-            <a href="Legend suite.html">Legend Suites</a>
-            <a href="Icon Suite.html">Icon Suites</a>
-            <a href="Duet suite.html">Duet Suites</a>
-            <a href="Premium suite.html">Premium Suite</a>
-            <a href="Honey suite.html">HoneyMoon Suite</a>
-            <a href="Discount suite.html">Discount Suite</a>
-          </div>
-        </li>
-        <li><a href="#">Contact</a></li>
-        <a class="bookbtn" href="suites.html">Book Now</a>
-      </div>
-      
-    </div> -->
-     <!--The mobile menu Ends-->
-
   </section>
   
   <!-- HERO SECTION -->
-  <section>
+  <section  id="home">
     <div class="heros">
       <div class="text">
         <h1>TRANQUIL HOTEL</h1>
@@ -79,7 +53,7 @@
 </div>
 
 <!-- ABOUT US SECTION -->
-<section>
+<section  id="about">
 <div class="all">
   <h3 style="text-align: center; color: whitesmoke;">About Us</h3>
   <div class="double">
@@ -89,12 +63,12 @@
       <!-- <a href="#">Read more...</a> -->
       <div class="count">
         <div class="available">
-          <h1>20+</h1>
-          <p>Available Property</p>
+          <h1>25+</h1>
+          <p>Available Rooms</p>
         </div>
         <div class="available">
-          <h1>200+</h1>
-          <p>Available Property</p>
+          <h1>100+</h1>
+          <p>Available Staff</p>
         </div>
         <div class="available">
           <h1>350+</h1>
@@ -165,33 +139,10 @@
     </div>
   </div>
 </div>
-<!-- <div class="body">
-  <div class="slide_container">
-      <div class="slides">
-          <img src="Images/Double/Studio-165-WEB-UNIT-1007-3-of-8-1115x615.jpg" alt="" width="300px"height="200px" class="active" >
-          <img src="Images/Double/Studio-165-WEB-UNIT-1007-4-of-8-1115x615.jpg" alt="" width="300px"height="200px" >
-          <img src="Images/Double/Studio-165-WEB-UNIT-1007-5-of-8-1115x615.jpg" alt="" width="300px"height="200px" >
-          <img src="Images/Double/Studio-165-WEB-UNIT-1007-6-of-8-1115x615.jpg" alt="" width="300px"height="200px" >
-      </div>
-      <div class="buttons">
-        <span class="next">&#10095;</span>
-        <span class="prev">&#10094;</span>
-          </div>
-  <div class="buttons">
-    <span class="next">&#10095;</span>
-    <span class="prev">&#10094;</span>
-  </div>
-  <div class="dotscontainer">
-      <div class="dot active" attr='0'></div>
-      <div class="dot" attr='1'></div>
-      <div class="dot" attr='2'></div>
-      <div class="dot" attr='3'></div>
-  </div>
-    </div> -->
 </section>
 
 <!-- Amendities section -->
-<section>
+<section  id="amenities">
   <div class="amendities">
     <h3 style="text-align: center; color: #444;">Our Amendities</h3>
     <div class="amendimage">
@@ -227,7 +178,7 @@
 </section>
 
  <!-- Suites Section -->
- <section>
+ <section  id="rooms">
   <div class="all">
     <h3 style="color: whitesmoke;">Suites</h3>
     <div class="four">
@@ -320,14 +271,14 @@
 </section>
 
 <!-- Contacts Section -->
-<section>
+<section  id="contact">
  <div class="contact-all">
   <div class="contact">
     <div class="form">
       <form action="">
         <h3 style="color: #333;">Say your mind!</h3>
-        <input class="input" type="text" placeholder="Enter your name"><br>
-        <input class="input" type="email" placeholder="Enter your email"><br>
+        <input class="input" type="text" placeholder="Enter your name" required><br>
+        <input class="input" type="email" placeholder="Enter your email" required><br>
         <textarea name="" id="" cols="50" rows="5" placeholder="Enter your comment..."></textarea><br>
         <input class="submitin" type="submit">
       </form>
@@ -340,7 +291,6 @@
       <h6>View the map below for direction</h6>
     </div>
     <div class="map">
-     <!-- <h1>Map</h1> -->
      <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7485072696377!2d32.55701107447503!3d0.33894566399204057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbb18b8b9db83%3A0x3cff7843fc15ff03!2sNyumbani%20Hotel%20Kampala!5e0!3m2!1sen!2sug!4v1711374167091!5m2!1sen!2sug" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
     </div>
    </div>
@@ -360,10 +310,10 @@
       </div>
       <div class="socials">
         <h6>Socials</h6>
-       <a href="#"><i  class="fa-brands fa-instagram"></i></a>
-        <a href="#"><i  class="fa-brands fa-x-twitter"></i></a>
-        <a href="#"><i  class="fa-brands fa-facebook"></i></a>
-        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+       <a href="www.instagram.com"><i  class="fa-brands fa-instagram"></i></a>
+        <a href="www.twitter.com"><i  class="fa-brands fa-x-twitter"></i></a>
+        <a href="www.facebook.com"><i  class="fa-brands fa-facebook"></i></a>
+        <a href="www.whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a>
       </div>
     </div>
   </div>

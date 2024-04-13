@@ -136,7 +136,6 @@ display: none;
 /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
-  /* width: 40%; */
   width: 500px;
   height: auto;
   }
