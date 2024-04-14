@@ -69,12 +69,12 @@ display: none;
 .fa-bars{
   color: whitesmoke;
   font-size: 30px;
-  display: none;
+ visibility: hidden;
 }
 
 /* Rooms Section */
 .backimage{
-  background-image: url(Images/IconSuite/Studio-165-WEB-UNIT-1001-13-of-27.jpg);
+  background-image: url(Images/IconSuite/Studio-165-WEB-UNIT-1001-6-of-27.jpg);
   background-position: center;
   background-size: cover;
   padding: 10px 0;

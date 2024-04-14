@@ -70,7 +70,7 @@ body{
   .fa-bars{
     color: whitesmoke;
     font-size: 30px;
-    display: none;
+    visibility: hidden;
   }
   .all{
     width: 400px;
